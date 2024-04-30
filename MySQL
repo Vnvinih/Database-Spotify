@@ -1,0 +1,38 @@
+CREATE DATABASE spotify;
+USE spotify;
+
+CREATE TABLE Artista (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    id_genero INT,
+    id_faixa INT
+);
+INSERT INTO Artista (nome, id_genero, id_faixa) VALUES ('Marília Mendonça', 8, 7);
+
+CREATE TABLE Genero (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50)
+);
+INSERT INTO Genero (nome) VALUES ('rock');
+
+CREATE TABLE Faixa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    id_artista INT,
+    id_genero INT,
+    FOREIGN KEY (id_artista) REFERENCES Artista(id),
+    FOREIGN KEY (id_genero) REFERENCES Genero(id)
+);
+INSERT INTO Faixa (nome, id_artista, id_genero) VALUES ('Nome da Faixa', 33, 34);
+
+CREATE TABLE Regiao (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    id_faixa INT,
+    FOREIGN KEY (id_faixa) REFERENCES Faixa(id)
+);
+
+SELECT * FROM Artista;
+SELECT * FROM Genero;
+SELECT * FROM Faixa;
+SELECT * FROM Regiao;
