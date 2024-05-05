@@ -1,38 +1,71 @@
-CREATE DATABASE spotify;
-USE spotify;
+create database spotify;
+use spotify;
 
-CREATE TABLE Artista (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100),
-    id_genero INT,
-    id_faixa INT
+CREATE TABLE Track (
+    TrackID INT AUTO_INCREMENT PRIMARY KEY,
+    TrackName VARCHAR(255),
+    ArtistName VARCHAR(255),
+    Genre VARCHAR(255),
+    BeatsPerMinute INT,
+    Energy INT,
+    Danceability INT,
+    LoudnessdB INT,
+    Liveness INT,
+    Valence INT,
+    Length INT,
+    Acousticness INT,
+    Speechiness INT,
+    Popularity INT
 );
-INSERT INTO Artista (nome, id_genero, id_faixa) VALUES ('Marília Mendonça', 8, 7);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Señorita','Shawn Mendes','canadian pop',117,55,76,-6,8,75,191,4,3,79);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('China','Anuel AA','reggaeton flow',105,81,79,-4,8,61,302,8,9,92);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('boyfriend (with Social House)','Ariana Grande','dance pop',190,80,40,-4,16,70,186,12,46,85);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Beautiful People (feat. Khalid)','Ed Sheeran','pop',93,65,64,-8,8,55,198,12,19,86);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Goodbyes (Feat. Young Thug)','Post Malone','dfw rap',150,65,58,-4,11,18,175,45,7,94);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('I Don\'t Care (with Justin Bieber)','Ed Sheeran','pop',102,68,80,-5,9,84,220,9,4,84);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Ransom','Lil Tecca','trap music',180,64,75,-6,7,23,131,2,29,92);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('How Do You Sleep?','Sam Smith','pop',111,68,48,-5,8,35,202,15,9,90);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Old Town Road - Remix','Lil Nas X','country rap',136,62,88,-6,11,64,157,5,10,87);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('bad guy','Billie Eilish','electropop',135,43,70,-11,10,56,194,33,38,95);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Callaita','Bad Bunny','reggaeton',176,62,61,-5,24,24,251,60,31,93);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Loco Contigo (feat. J. Balvin & Tyga)','DJ Snake','dance pop',96,71,82,-4,15,38,185,28,7,86);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Someone You Loved','Lewis Capaldi','pop',110,41,50,-6,11,45,182,75,3,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Otro Trago - Remix','Sech','panamanian pop',176,79,73,-2,6,76,288,7,20,87);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Money In The Grave (Drake ft. Rick Ross)','Drake','canadian hip hop',101,50,83,-4,12,10,205,10,5,92);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('No Guidance (feat. Drake)','Chris Brown','dance pop',93,45,70,-7,16,14,261,12,15,82);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('LA CANCIÓN','J Balvin','latin',176,65,75,-6,11,43,243,15,32,90);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Sunflower - Spider-Man: Into the Spider-Verse','Post Malone','dfw rap',90,48,76,-6,7,91,158,56,5,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Lalala','Y2K','canadian hip hop',130,39,84,-8,14,50,161,18,8,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Truth Hurts','Lizzo','escape room',158,62,72,-3,12,41,173,11,11,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Piece Of Your Heart','MEDUZA','pop house',124,74,68,-7,7,63,153,4,3,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Panini','Lil Nas X','country rap',154,59,70,-6,12,48,115,34,8,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('No Me Conoce - Remix','Jhay Cortez','reggaeton flow',92,79,81,-4,9,58,309,14,7,83);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Soltera - Remix','Lunay','latin',92,78,80,-4,44,80,266,36,4,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('bad guy (with Justin Bieber)','Billie Eilish','electropop',135,45,67,-11,12,68,195,25,30,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('If I Can\'t Have You','Shawn Mendes','canadian pop',124,82,69,-4,13,87,191,49,6,70);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Dance Monkey','Tones and I','australian pop',98,59,82,-6,18,54,210,69,10,83);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('It\'s You','Ali Gatie','canadian hip hop',96,46,73,-7,19,40,213,37,3,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Con Calma','Daddy Yankee','latin',94,86,74,-3,6,66,193,11,6,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('QUE PRETENDES','J Balvin','latin',93,79,64,-4,36,94,222,3,25,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Takeaway','The Chainsmokers','edm',85,51,29,-8,10,36,210,12,4,84);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('7 rings','Ariana Grande','dance pop',140,32,78,-11,9,33,179,59,33,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('0.958333333333333','Maluma','reggaeton',96,71,78,-5,9,68,176,22,28,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('The London (feat. J. Cole & Travis Scott)','Young Thug','atl hip hop',98,59,80,-7,13,18,200,2,15,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Never Really Over','Katy Perry','dance pop',100,88,77,-5,32,39,224,19,6,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)','Martin Garrix','big room',114,72,66,-7,14,32,164,18,6,89);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Otro Trago','Sech','panamanian pop',176,70,75,-5,11,62,226,14,34,91);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Antisocial (with Travis Scott)','Ed Sheeran','pop',152,82,72,-5,36,91,162,13,5,87);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Sucker','Jonas Brothers','boy band',138,73,84,-5,11,95,181,4,6,80);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('fuck, i\'m lonely (with Anne-Marie) - from “13 Reasons Why: Season 3”','Lauv','dance pop',95,56,81,-6,6,68,199,48,7,78);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Higher Love','Kygo','edm',104,68,69,-7,10,40,228,2,3,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('You Need To Calm Down','Taylor Swift','dance pop',85,68,77,-6,7,73,171,1,5,90);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Shallow','Lady Gaga','dance pop',96,39,57,-6,23,32,216,37,3,87);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Talk','Khalid','pop',136,40,90,-9,6,35,198,5,13,84);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Con Altura','ROSALÍA','r&b en espanol',98,69,88,-4,5,75,162,39,12,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('One Thing Right','Marshmello','brostep',88,62,66,-2,58,44,182,7,5,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Te Robaré','Nicky Jam','latin',176,75,67,-4,8,80,202,24,6,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Happier','Marshmello','brostep',100,79,69,-3,17,67,214,19,5,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Call You Mine','The Chainsmokers','edm',104,70,59,-6,41,50,218,23,3,88);
+INSERT INTO Track (`TrackName`,`ArtistName`,`Genre`,`BeatsPerMinute`,`Energy`,`Danceability`,`LoudnessdB`,`Liveness`,`Valence`,`Length`,`Acousticness`,`Speechiness`,`Popularity`) VALUES ('Cross Me (feat. Chance the Rapper & PnB Rock)','Ed Sheeran','pop',95,79,75,-6,7,61,206,21,12,82);
 
-CREATE TABLE Genero (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(50)
-);
-INSERT INTO Genero (nome) VALUES ('rock');
-
-CREATE TABLE Faixa (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100),
-    id_artista INT,
-    id_genero INT,
-    FOREIGN KEY (id_artista) REFERENCES Artista(id),
-    FOREIGN KEY (id_genero) REFERENCES Genero(id)
-);
-INSERT INTO Faixa (nome, id_artista, id_genero) VALUES ('Nome da Faixa', 1, 1);
-
-CREATE TABLE Regiao (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(50),
-    id_faixa INT,
-    FOREIGN KEY (id_faixa) REFERENCES Faixa(id)
-);
-
-SELECT * FROM Artista;
-SELECT * FROM Genero;
-SELECT * FROM Faixa;
-SELECT * FROM Regiao;
+SELECT * FROM Track;
