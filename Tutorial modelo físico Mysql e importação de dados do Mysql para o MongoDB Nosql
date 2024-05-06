@@ -1,4 +1,4 @@
-**# MODELO LÓGICO MYSQL:**
+MODELO FÍSICO MYSQL:
 
 1 - Tenha instalado o Mysql Workbench instalado em sua máquina.
 
@@ -9,7 +9,7 @@
 4 - Para inserir dados na tabela, definindo os valores para uma ou mais colunas utilize 'INSERT INTO'.
 
 
-**# IPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB NOSQL:**
+**# IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB NOSQL:**
 
 1 - Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
 
