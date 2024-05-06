@@ -1,0 +1,28 @@
+**# MODELO LÓGICO MYSQL:**
+
+1 - Tenha instalado o Mysql Workbench instalado em sua máquina.
+
+2 - crie um banco de dados usando 'create database', logo após utilize 'use' para acessar o banco de dados .
+
+3 - logo após crie uma tabela usando 'CREATE TABLE'.
+
+4 - Para inserir dados na tabela, definindo os valores para uma ou mais colunas utilize 'INSERT INTO'.
+
+
+**# IPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB NOSQL:**
+
+1 - Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
+
+2 - também tenha instalado o MongoDB Database Tools para poder utilizar o mongoimport, e o Mongoshell para configurar o prompt.
+
+3 - Salve o documento do seu banco de dados em formato csv ou json através do Mysql Workbench.
+
+4 - No Prompt de comandos utilize 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray' para importar os dados do Mysql Workbench para o MongoDB Nosql.
+
+5 - utilize 'show dbs' para monstrarb os bancos existentes.
+
+6 - utilize 'use + nome do banco de dados' para acessar o banco de dados.
+
+7 - utilize 'show collections' para visualizar as tabelas existentes.
+
+8 - utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
