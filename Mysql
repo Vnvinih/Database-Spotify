@@ -1,6 +1,53 @@
 create database spotify;
 use spotify;
 
+CREATE TABLE artists(
+id_artist INT,
+artist_name VARCHAR(255)
+);
+
+INSERT INTO artists ( id_artist, artist_name)
+VALUES (111, 'Shawn Mendes'),
+(222, 'Anuel AA'),
+(333, 'Ariana Grande'),
+(444, 'Ed Sheeran'),
+(555, 'Post Malone'),
+(666, 'Lil Tecca'),
+(777, 'Sam Smith'),
+(888, 'Lil Nas X'),
+(999, 'Billie Eilish'),
+(121, 'Bad Bunny'),
+(122, 'DJ Snake'),
+(123, 'Lewis Capaldi'),
+(124, 'Sech'),
+(125, 'Drake'),
+(126, 'Chris Brown'),
+(127, 'J Balvin'),
+(128, 'Y2K'),
+(129, 'Lizzo'),
+(131, 'MEDUZA'),
+(132, 'Jhay Cortez'),
+(133, 'Lunay'),
+(134, 'Tones and I'),
+(135, 'Ali Gatie'),
+(136, 'Daddy Yankee'),
+(137, 'The Chainsmokers'),
+(138, 'Maluma'),
+(139, 'Young Thug'),
+(141, 'Katy Perry'),
+(142, 'Martin Garrix'),
+(143, 'Jonas Brothers'),
+(144, 'Lauv'),
+(145, 'Kygo'),
+(146, 'Taylor Swift'),
+(147, 'Lady Gaga'),
+(148, 'Khalid'),
+(149, 'ROSALÍA'),
+(151, 'Marshmello'),
+(152, 'Nicky Jam');
+
+select * from  artists;
+
 CREATE TABLE Track (
     TrackID INT AUTO_INCREMENT PRIMARY KEY,
     TrackName VARCHAR(255),
