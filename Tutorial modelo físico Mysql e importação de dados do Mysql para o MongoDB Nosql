@@ -1,28 +1,44 @@
-MODELO FÍSICO MYSQL:
+MODELO FÍSICO E LÓGICO MYSQL:
 
 1 - Tenha instalado o Mysql Workbench instalado em sua máquina.
 
-2 - crie um banco de dados usando 'create database', logo após utilize 'use' para acessar o banco de dados .
+2 - vá na aba model e depois clique em Add Diagram para começar a criar seu modelo lógico
 
-3 - logo após crie uma tabela usando 'CREATE TABLE'.
+3 - depois de criado clique no botao direito em cima da tabela que você quer exportar e vá em COPY SQL TO CLIPBOARD
 
-4 - Para inserir dados na tabela, definindo os valores para uma ou mais colunas utilize 'INSERT INTO'.
+4 - Crie um database e cole
+
+5- desse jeito você exporta as tabelas criadas em diagramas para código SQL(modelo físico)
+
+6- faça com todas as suas tabelas e por fim crie os inserts e outros scripts
 
 
-**# IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB NOSQL:**
+**# IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGODB PELO PROMPT:**
 
 1 - Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
 
-2 - também tenha instalado o MongoDB Database Tools para poder utilizar o mongoimport, e o Mongoshell para configurar o prompt.
+2 - também tenha instalado o MongoDB Database Tools para poder utilizar o mongoimport, e o Mongoshell para configurar o prompt no mongo compass.
 
 3 - Salve o documento do seu banco de dados em formato csv ou json através do Mysql Workbench.
 
-4 - No Prompt de comandos utilize 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray' para importar os dados do Mysql Workbench para o MongoDB Nosql.
+4 - No Prompt de comandos utilize 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray' para importar os dados do Mysql Workbench para o MongoDB.
 
-5 - utilize 'show dbs' para monstrarb os bancos existentes.
+5 - utilize 'show dbs' para monstrar os bancos existentes.
 
 6 - utilize 'use + nome do banco de dados' para acessar o banco de dados.
 
 7 - utilize 'show collections' para visualizar as tabelas existentes.
 
 8 - utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
+
+9- desse jeito que você armazena os documentos em JSON para o MongoDB
+
+IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB PELO MONGODBCOMPASS;
+
+1-  Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
+
+2 - também tenha instalado o MongoDBcompass
+
+3- Abra o MongoDBcompass crie um database e clique em add data para importar os dados exportados do workbenchMySQL salvo em JSON ou CSV.
+
+4- desse jeito que você armazena os documentos em JSON para o MongoDB
