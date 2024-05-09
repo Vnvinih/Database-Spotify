@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "663bf661024d5142f01862be"
+  },
+  "id_artista": 1,
+  "ArtistName": "Shawn Mendes"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862bf"
+  },
+  "id_artista": 2,
+  "ArtistName": "Anuel AA"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c0"
+  },
+  "id_artista": 3,
+  "ArtistName": "Ariana Grande"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c1"
+  },
+  "id_artista": 4,
+  "ArtistName": "Ed Sheeran"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c2"
+  },
+  "id_artista": 5,
+  "ArtistName": "Post Malone"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c3"
+  },
+  "id_artista": 6,
+  "ArtistName": "Lil Tecca"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c4"
+  },
+  "id_artista": 7,
+  "ArtistName": "Sam Smith"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c5"
+  },
+  "id_artista": 8,
+  "ArtistName": "Lil Nas X"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c6"
+  },
+  "id_artista": 9,
+  "ArtistName": "Billie Eilish"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c7"
+  },
+  "id_artista": 10,
+  "ArtistName": "Bad Bunny"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c8"
+  },
+  "id_artista": 11,
+  "ArtistName": "DJ Snake"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862c9"
+  },
+  "id_artista": 12,
+  "ArtistName": "Lewis Capaldi"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862ca"
+  },
+  "id_artista": 13,
+  "ArtistName": "Sech"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862cb"
+  },
+  "id_artista": 14,
+  "ArtistName": "Drake"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862cc"
+  },
+  "id_artista": 15,
+  "ArtistName": "Chris Brown"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862cd"
+  },
+  "id_artista": 16,
+  "ArtistName": "J Balvin"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862ce"
+  },
+  "id_artista": 17,
+  "ArtistName": "Y2K"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862cf"
+  },
+  "id_artista": 18,
+  "ArtistName": "Lizzo"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d0"
+  },
+  "id_artista": 19,
+  "ArtistName": "MEDUZA"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d1"
+  },
+  "id_artista": 20,
+  "ArtistName": "Jhay Cortez"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d2"
+  },
+  "id_artista": 21,
+  "ArtistName": "Lunay"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d3"
+  },
+  "id_artista": 22,
+  "ArtistName": "Tones and I"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d4"
+  },
+  "id_artista": 23,
+  "ArtistName": "Ali Gatie"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d5"
+  },
+  "id_artista": 24,
+  "ArtistName": "Daddy Yankee"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d6"
+  },
+  "id_artista": 25,
+  "ArtistName": "The Chainsmokers"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d7"
+  },
+  "id_artista": 26,
+  "ArtistName": "Maluma"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d8"
+  },
+  "id_artista": 27,
+  "ArtistName": "Young Thug"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862d9"
+  },
+  "id_artista": 28,
+  "ArtistName": "Katy Perry"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862da"
+  },
+  "id_artista": 29,
+  "ArtistName": "Martin Garrix"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862db"
+  },
+  "id_artista": 30,
+  "ArtistName": "Jonas Brothers"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862dc"
+  },
+  "id_artista": 31,
+  "ArtistName": "Lauv"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862dd"
+  },
+  "id_artista": 32,
+  "ArtistName": "Kygo"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862de"
+  },
+  "id_artista": 33,
+  "ArtistName": "Taylor Swift"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862df"
+  },
+  "id_artista": 34,
+  "ArtistName": "Lady Gaga"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862e0"
+  },
+  "id_artista": 35,
+  "ArtistName": "Khalid"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862e1"
+  },
+  "id_artista": 36,
+  "ArtistName": "ROSALÍA"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862e2"
+  },
+  "id_artista": 37,
+  "ArtistName": "Marshmello"
+},
+{
+  "_id": {
+    "$oid": "663bf661024d5142f01862e3"
+  },
+  "id_artista": 38,
+  "ArtistName": "Nicky Jam"
+}]
