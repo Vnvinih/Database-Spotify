@@ -42,3 +42,72 @@ IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB PELO MONGODBCOMPASS;
 3- Abra o MongoDBcompass crie um database e clique em add data para importar os dados exportados do workbenchMySQL salvo em JSON ou CSV.
 
 4- desse jeito que você armazena os documentos em JSON para o MongoDB
+
+MANIPULAÇÃO DE DADOS NO MONGODB:
+
+2. Criar o Primeiro banco de dados e inserir Documentos:
+O MongoDB organiza os dados em coleções, e os documentos são armazenados dentro dessas coleções:
+
+show dbs;
+use minhaBaseDeDados // Se não tiver um banco de dados com esse nome, o mongoDB irá criar automaticamente.
+
+// Criar uma coleção chamada "usuarios"
+db.createCollection("usuarios")
+
+// Inserir um documento na coleção "usuarios"
+db.usuarios.insertOne({
+    nome: "João",
+    idade: 30,
+    cidade: "São Paulo"
+})
+Você pode inserir mais documentos na coleção usando o método insertOne() ou insertMany():
+
+// Inserir vários documentos de uma vez
+db.usuarios.insertMany([
+    { nome: "Maria", idade: 25, cidade: "Rio de Janeiro" },
+    { nome: "Pedro", idade: 35, cidade: "Belo Horizonte" }
+])
+
+4. Buscar Documentos:
+Para buscar documentos, você pode usar o método find():
+
+// Buscar todos os documentos na coleção "usuarios"
+db.usuarios.find()
+
+// Buscar documentos com condições específicas
+db.usuarios.find({ cidade: "São Paulo" })
+
+5. Remover Documentos:
+Para remover documentos, use o método deleteOne() ou deleteMany():
+
+// Remover um documento
+db.usuarios.deleteOne({ nome: "João" })
+
+// Remover todos os documentos que atendam a uma condição
+db.usuarios.deleteMany({ idade: { $gt: 30 } }) // Remove usuários com idade maior que 30 anos
+
+6. Alterar Documentos:
+Para atualizar documentos, use o método updateOne() ou updateMany(), ou o método update() que foi descontinuado na versão 4.2 do MongoDB:
+
+// Atualizar um documento
+db.usuarios.updateOne(
+    { nome: "Maria" }, // Condição de filtro
+    { $set: { cidade: "São Paulo" } } // Novos valores
+)
+
+// Atualizar vários documentos
+db.usuarios.updateMany(
+    { cidade: "Rio de Janeiro" }, // Condição de filtro
+    { $set: { cidade: "Niterói" } } // Novos valores
+)
+
+7. Encerrar a Conexão:
+Quando terminar, você pode sair do console do MongoDB digitando:
+
+quit()
+
+
+
+
+
+
