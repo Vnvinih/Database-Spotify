@@ -3,7 +3,13 @@
 
 # Sobre o projeto
 
-Database Spotify é um projeto que está sendo desenvolvido (EXPLICAÇÃO SOBRE O PROJETO)
+### Database Spotify é um projeto que contém:
+
+As 50 músicas mais ouvidas do mundo pelo Spotify. Este conjunto de dados possui diversas variáveis ​​sobre as músicas, como artitas, gênero musical, etc.
+
+contendo:
+50 músicas
+13 variáveis
 
 balbalbalblablalbv (OBJETIVO DO PROJETO)
 
