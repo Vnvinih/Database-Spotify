@@ -25,3 +25,13 @@ balbalbalblablalbv (OBJETIVO DO PROJETO)
 ## Back end
 Pré-requisitos:
 (Explicação com o link do tutorial)
+
+# Aqui estão algumas etapas gerais que você pode seguir para normalizar seus dados usando o MySQL Workbench:
+
+1 - Identifique as entidades e seus atributos: Comece identificando as diferentes entidades (tabelas) no seu sistema e seus atributos. 
+
+2 - Certifique-se de que cada coluna em uma tabela contenha apenas um valor e que os valores sejam atômicos. Isso geralmente envolve dividir tabelas grandes em tabelas menores e mais específicas.
+
+3 - Se necessário, divida tabelas em várias tabelas.
+
+4 - Estabelecer relacionamentos: Use as ferramentas do MySQL Workbench para estabelecer relacionamentos entre as tabelas.
