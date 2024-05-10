@@ -14,7 +14,8 @@ contendo:
 balbalbalblablalbv (OBJETIVO DO PROJETO)
 
 ## Modelo lógico
-(imagem)
+![modelo_logico](https://github.com/Vnvinih/Database-Spotify/assets/168032222/ce9c8472-1dfe-41b7-8b96-38fe7e8c72cb)
+
 
 # Tecnologias utilizadas
 ## Back end
