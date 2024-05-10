@@ -21,7 +21,9 @@ MODELO FÍSICO E LÓGICO MYSQL:
 
 3 - Salve o documento do seu banco de dados em formato csv ou json através do Mysql Workbench.
 
-4 - No Prompt de comandos utilize 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray' para importar os dados do Mysql Workbench para o MongoDB.
+4 - No Prompt de comandos utilize: 
+'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray'
+para importar os arquivos em JSON ou CSV exportado do Mysql Workbench.
 
 5 - utilize 'show dbs' para monstrar os bancos existentes.
 
