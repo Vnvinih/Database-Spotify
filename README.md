@@ -12,9 +12,9 @@ balbalbalblablalbv (OBJETIVO DO PROJETO)
 
 # Tecnologias utilizadas
 ## Back end
-- X
-- X
-- X
+- MongoDB Nosql
+- Mysql Workbench
+  
 
 # Implantação em produção
 - x
