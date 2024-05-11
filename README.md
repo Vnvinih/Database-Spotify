@@ -3,9 +3,9 @@
 
 # Sobre o projeto
 
-### Database Spotify é um projeto que contém:
+### Database Spotify é um projeto que:
 
-As 50 músicas mais ouvidas do mundo pelo Spotify.
+Consiste em trabalhar as modelagem de dados pegando um dataset sobre as top 50 musicas do spotify do ano de 2019. Utilizando uma base de dados NoSQL, contendo uma extração do banco de dados relacional.
 
 O objetivo do nosso projeto, é realizar por meio do mongodb, uma database que é capaz de categorizar e organizar as top 50 musicas mais ouvidas no spotify no ano de 2019, separando por musicas, artistas e gêneros.
 
@@ -19,15 +19,19 @@ O objetivo do nosso projeto, é realizar por meio do mongodb, uma database que �
 - Mysql Workbench
   
 
-# Implantação em produção
-- x
-- x
-- x
-
 # Como executar o projeto
 ## Back end
-Pré-requisitos:
-(Explicação com o link do tutorial)
+Pré-requisitos: MongoDB, Mysql
+
+```bash
+# Ler tutorial
+https://github.com/Vnvinih/Database-Spotify/blob/main/Tutorial
+
+# entrar na pasta do projeto Mysql
+https://github.com/Vnvinih/Database-Spotify/blob/main/Mysql
+
+```
+
 
 # Aqui estão algumas etapas gerais que você pode seguir para normalizar seus dados usando o MySQL Workbench:
 
