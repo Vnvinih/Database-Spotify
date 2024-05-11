@@ -7,7 +7,7 @@
 
 As 50 músicas mais ouvidas do mundo pelo Spotify.
 
-O objetivo do nosso projeto, é realizar por meio do mongodb, uma database que é capaz de categorizar e organizar as top 50 musicas mais ouvidas no spotify no ano de 2019, separando por gênero, artista e região as mais ouvidas.
+O objetivo do nosso projeto, é realizar por meio do mongodb, uma database que é capaz de categorizar e organizar as top 50 musicas mais ouvidas no spotify no ano de 2019, separando por musicas, artistas e gêneros.
 
 ## Modelo lógico
 ![modelo_logico](https://github.com/Vnvinih/Database-Spotify/assets/168032222/ce9c8472-1dfe-41b7-8b96-38fe7e8c72cb)
