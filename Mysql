@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `spotify`.`Genre` (
   PRIMARY KEY (`id_genre`))
 ENGINE = InnoDB;
 
-INSERT INTO genre (name_genre)
+INSERT INTO Genre (name_genre)
 VALUES('canadian pop'),
 ('reggaeton flow'),
 ('dance pop'),
