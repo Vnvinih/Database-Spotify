@@ -5,13 +5,9 @@
 
 ### Database Spotify é um projeto que contém:
 
-As 50 músicas mais ouvidas do mundo pelo Spotify. Este conjunto de dados possui diversas variáveis ​​sobre as músicas, como artitas, gênero musical, etc.
+As 50 músicas mais ouvidas do mundo pelo Spotify.
 
-contendo:
-50 músicas
-13 variáveis
-
-balbalbalblablalbv (OBJETIVO DO PROJETO)
+obj:
 
 ## Modelo lógico
 ![modelo_logico](https://github.com/Vnvinih/Database-Spotify/assets/168032222/ce9c8472-1dfe-41b7-8b96-38fe7e8c72cb)
