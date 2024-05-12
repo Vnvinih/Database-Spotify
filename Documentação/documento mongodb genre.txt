@@ -1,0 +1,147 @@
+[{
+  "_id": {
+    "$oid": "663bf676024d5142f01862e5"
+  },
+  "id_genre": 1,
+  "name_genre": "canadian pop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862e6"
+  },
+  "id_genre": 2,
+  "name_genre": "reggaeton flow"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862e7"
+  },
+  "id_genre": 3,
+  "name_genre": "dance pop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862e8"
+  },
+  "id_genre": 4,
+  "name_genre": "pop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862e9"
+  },
+  "id_genre": 5,
+  "name_genre": "dfw rap"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862ea"
+  },
+  "id_genre": 6,
+  "name_genre": "trap music"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862eb"
+  },
+  "id_genre": 7,
+  "name_genre": "country rap"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862ec"
+  },
+  "id_genre": 8,
+  "name_genre": "electropop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862ed"
+  },
+  "id_genre": 9,
+  "name_genre": "reggaeton"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862ee"
+  },
+  "id_genre": 10,
+  "name_genre": "panamanian pop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862ef"
+  },
+  "id_genre": 11,
+  "name_genre": "canadian hip hop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f0"
+  },
+  "id_genre": 12,
+  "name_genre": "latin"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f1"
+  },
+  "id_genre": 13,
+  "name_genre": "escape room"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f2"
+  },
+  "id_genre": 14,
+  "name_genre": "pop house"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f3"
+  },
+  "id_genre": 15,
+  "name_genre": "australian pop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f4"
+  },
+  "id_genre": 16,
+  "name_genre": "edm"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f5"
+  },
+  "id_genre": 17,
+  "name_genre": "atl hip hop"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f6"
+  },
+  "id_genre": 18,
+  "name_genre": "big room"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f7"
+  },
+  "id_genre": 19,
+  "name_genre": "boy band"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f8"
+  },
+  "id_genre": 20,
+  "name_genre": "r&b en espanol"
+},
+{
+  "_id": {
+    "$oid": "663bf676024d5142f01862f9"
+  },
+  "id_genre": 21,
+  "name_genre": "brostep"
+}]
