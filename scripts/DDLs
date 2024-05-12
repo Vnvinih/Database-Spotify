@@ -1,0 +1,73 @@
+CREATE TABLE IF NOT EXISTS `spotify`.`tb_artista` (
+  `id_artista` INT NOT NULL AUTO_INCREMENT,
+  `ArtistName` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_artista`))
+ENGINE = InnoDB;
+
+
+
+
+CREATE TABLE IF NOT EXISTS `spotify`.`Genre` (
+  `id_genre` INT NOT NULL AUTO_INCREMENT,
+  `name_genre` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_genre`))
+ENGINE = InnoDB;
+
+
+
+
+CREATE TABLE IF NOT EXISTS `tb_track` (
+  `id_track` INT NOT NULL AUTO_INCREMENT,
+  `TrackName` VARCHAR(255) NOT NULL,
+  `ArtistID` INT,
+  `GenreID` INT,
+  `BeatsPerMinute` INT NULL,
+  `Energy` INT NULL,
+  `Danceability` INT NULL,
+  `LoudnessdB` INT NULL,
+  `Liveness` INT NULL,
+  `Valence` INT NULL,
+  `Length` INT NULL,
+  `Acousticness` INT NULL,
+  `Speechiness` INT NULL,
+  `Popularity` INT NULL,
+  PRIMARY KEY (`id_track`),
+  FOREIGN KEY (`ArtistID`) REFERENCES `tb_artista`(`id_artista`),
+  FOREIGN KEY (`GenreID`) REFERENCES `Genre`(`id_genre`)
+) ENGINE = InnoDB;
+
+ALTER TABLE tb_track
+ADD FOREIGN KEY (ArtistID) REFERENCES tb_artista(id_artista),
+ADD FOREIGN KEY (GenreID) REFERENCES Genre(id_genre);
+
+
+
+ALTER TABLE tb_track
+DROP COLUMN BeatsPerMinute,
+DROP COLUMN Energy,
+DROP COLUMN Danceability,
+DROP COLUMN LoudnessdB,
+DROP COLUMN Liveness,
+DROP COLUMN Valence,
+DROP COLUMN Length,
+DROP COLUMN Acousticness,
+DROP COLUMN Speechiness,
+DROP COLUMN Popularity;
+
+
+CREATE TABLE IF NOT EXISTS `spotify`.`tb_track_attributes` (
+  `id_track` INT NOT NULL,
+  `BeatsPerMinute` INT NULL,
+  `Energy` INT NULL,
+  `Danceability` INT NULL,
+  `LoudnessdB` INT NULL,
+  `Liveness` INT NULL,
+  `Valence` INT NULL,
+  `Length` INT NULL,
+  `Acousticness` INT NULL,
+  `Speechiness` INT NULL,
+  `Popularity` INT NULL,
+  PRIMARY KEY (`id_track`),
+  FOREIGN KEY (`id_track`) REFERENCES `tb_track`(`id_track`)
+) ENGINE = InnoDB;
+
