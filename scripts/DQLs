@@ -1,0 +1,7 @@
+SELECT * FROM tb_artista;
+
+SELECT * FROM Genre;
+
+select * from tb_track;
+
+SELECT * FROM tb_track_attributes;
