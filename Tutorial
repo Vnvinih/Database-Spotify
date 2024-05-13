@@ -25,21 +25,21 @@ MODELO FÍSICO E LÓGICO MYSQL:
 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray'
 para importar os arquivos em JSON ou CSV exportado do Mysql Workbench.
 
-5 - utilize 'show dbs' para monstrar os bancos existentes.
+5 - Utilize 'show dbs' para monstrar os bancos existentes.
 
-6 - utilize 'use + nome do banco de dados' para acessar o banco de dados.
+6 - Utilize 'use + nome do banco de dados' para acessar o banco de dados.
 
-7 - utilize 'show collections' para visualizar as tabelas existentes.
+7 - Utilize 'show collections' para visualizar as tabelas existentes.
 
-8 - utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
+8 - Utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
 
-9- desse jeito que você armazena os documentos em JSON para o MongoDB
+9- Desse jeito que você armazena os documentos em JSON para o MongoDB
 
 IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB PELO MONGODBCOMPASS;
 
 1-  Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
 
-2 - também tenha instalado o MongoDBcompass
+2 - Também tenha instalado o MongoDBcompass
 
 3- Abra o MongoDBcompass crie um database e clique em add data para importar os dados exportados do workbenchMySQL salvo em JSON ou CSV.
 
