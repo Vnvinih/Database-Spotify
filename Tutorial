@@ -33,7 +33,7 @@ para importar os arquivos em JSON ou CSV exportado do Mysql Workbench.
 
 8 - Utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
 
-9- Desse jeito que você armazena os documentos em JSON para o MongoDB
+9- Desse jeito que você armazena os documentos em JSON para o MongoDB tirado do modelo relacional.
 
 IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB PELO MONGODBCOMPASS;
 
