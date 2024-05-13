@@ -10,7 +10,8 @@ Consiste em trabalhar as modelagem de dados pegando um dataset sobre as top 50 m
 O objetivo do nosso projeto, é realizar por meio do mongodb, uma database que é capaz de categorizar e organizar as top 50 musicas mais ouvidas no spotify no ano de 2019, separando por musicas, artistas e gêneros.
 
 ## Modelo lógico
-![modelo_logico](https://github.com/Vnvinih/Database-Spotify/assets/168032222/ce9c8472-1dfe-41b7-8b96-38fe7e8c72cb)
+![modelo_logico1](https://github.com/Vnvinih/Database-Spotify/assets/168032222/79f4ade5-eca7-44eb-a4f9-cd3a1b1930be)
+
 
 
 # Tecnologias utilizadas
