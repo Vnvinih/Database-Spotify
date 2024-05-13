@@ -1,7 +1,7 @@
 create database spotify;
 use spotify;
 
-CREATE TABLE IF NOT EXISTS `spotify`.`tb_artista` (
+CREATE TABLE IF NOT EXISTS `spotify`.`tb_artista`(
   `id_artista` INT NOT NULL AUTO_INCREMENT,
   `ArtistName` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_artista`))
