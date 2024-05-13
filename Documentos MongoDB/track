@@ -1,0 +1,450 @@
+[{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ab"
+  },
+  "id_track": 1,
+  "TrackName": "Señorita",
+  "ArtistID": 1,
+  "GenreID": 1
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ac"
+  },
+  "id_track": 2,
+  "TrackName": "China",
+  "ArtistID": 2,
+  "GenreID": 2
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ad"
+  },
+  "id_track": 3,
+  "TrackName": "boyfriend (with Social House)",
+  "ArtistID": 3,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ae"
+  },
+  "id_track": 4,
+  "TrackName": "Beautiful People (feat. Khalid)",
+  "ArtistID": 4,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2af"
+  },
+  "id_track": 5,
+  "TrackName": "Goodbyes (Feat. Young Thug)",
+  "ArtistID": 5,
+  "GenreID": 5
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b0"
+  },
+  "id_track": 6,
+  "TrackName": "I Don't Care (with Justin Bieber)",
+  "ArtistID": 4,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b1"
+  },
+  "id_track": 7,
+  "TrackName": "Ransom",
+  "ArtistID": 6,
+  "GenreID": 6
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b2"
+  },
+  "id_track": 8,
+  "TrackName": "How Do You Sleep?",
+  "ArtistID": 7,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b3"
+  },
+  "id_track": 9,
+  "TrackName": "Old Town Road - Remix",
+  "ArtistID": 8,
+  "GenreID": 7
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b4"
+  },
+  "id_track": 10,
+  "TrackName": "bad guy",
+  "ArtistID": 9,
+  "GenreID": 8
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b5"
+  },
+  "id_track": 11,
+  "TrackName": "Callaita",
+  "ArtistID": 10,
+  "GenreID": 9
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b6"
+  },
+  "id_track": 12,
+  "TrackName": "Loco Contigo (feat. J. Balvin & Tyga)",
+  "ArtistID": 11,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b7"
+  },
+  "id_track": 13,
+  "TrackName": "Someone You Loved",
+  "ArtistID": 12,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b8"
+  },
+  "id_track": 14,
+  "TrackName": "Otro Trago - Remix",
+  "ArtistID": 13,
+  "GenreID": 10
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2b9"
+  },
+  "id_track": 15,
+  "TrackName": "Money In The Grave (Drake ft. Rick Ross)",
+  "ArtistID": 14,
+  "GenreID": 11
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ba"
+  },
+  "id_track": 16,
+  "TrackName": "No Guidance (feat. Drake)",
+  "ArtistID": 15,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2bb"
+  },
+  "id_track": 17,
+  "TrackName": "LA CANCIÓN",
+  "ArtistID": 16,
+  "GenreID": 12
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2bc"
+  },
+  "id_track": 18,
+  "TrackName": "Sunflower - Spider-Man: Into the Spider-Verse",
+  "ArtistID": 5,
+  "GenreID": 5
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2bd"
+  },
+  "id_track": 19,
+  "TrackName": "Lalala",
+  "ArtistID": 17,
+  "GenreID": 11
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2be"
+  },
+  "id_track": 20,
+  "TrackName": "Truth Hurts",
+  "ArtistID": 18,
+  "GenreID": 13
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2bf"
+  },
+  "id_track": 21,
+  "TrackName": "Piece Of Your Heart",
+  "ArtistID": 19,
+  "GenreID": 14
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c0"
+  },
+  "id_track": 22,
+  "TrackName": "Panini",
+  "ArtistID": 8,
+  "GenreID": 7
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c1"
+  },
+  "id_track": 23,
+  "TrackName": "No Me Conoce - Remix",
+  "ArtistID": 20,
+  "GenreID": 2
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c2"
+  },
+  "id_track": 24,
+  "TrackName": "Soltera - Remix",
+  "ArtistID": 21,
+  "GenreID": 12
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c3"
+  },
+  "id_track": 25,
+  "TrackName": "bad guy (with Justin Bieber)",
+  "ArtistID": 9,
+  "GenreID": 8
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c4"
+  },
+  "id_track": 26,
+  "TrackName": "If I Can't Have You",
+  "ArtistID": 1,
+  "GenreID": 1
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c5"
+  },
+  "id_track": 27,
+  "TrackName": "Dance Monkey",
+  "ArtistID": 22,
+  "GenreID": 15
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c6"
+  },
+  "id_track": 28,
+  "TrackName": "It's You",
+  "ArtistID": 23,
+  "GenreID": 11
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c7"
+  },
+  "id_track": 29,
+  "TrackName": "Con Calma",
+  "ArtistID": 24,
+  "GenreID": 12
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c8"
+  },
+  "id_track": 30,
+  "TrackName": "QUE PRETENDES",
+  "ArtistID": 16,
+  "GenreID": 12
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2c9"
+  },
+  "id_track": 31,
+  "TrackName": "Takeaway",
+  "ArtistID": 25,
+  "GenreID": 16
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ca"
+  },
+  "id_track": 32,
+  "TrackName": "7 rings",
+  "ArtistID": 3,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2cb"
+  },
+  "id_track": 33,
+  "TrackName": "0.958333333333333",
+  "ArtistID": 26,
+  "GenreID": 9
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2cc"
+  },
+  "id_track": 34,
+  "TrackName": "The London (feat. J. Cole & Travis Scott)",
+  "ArtistID": 5,
+  "GenreID": 17
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2cd"
+  },
+  "id_track": 35,
+  "TrackName": "Never Really Over",
+  "ArtistID": 27,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2ce"
+  },
+  "id_track": 36,
+  "TrackName": "Summer Days (feat. Macklemore & Patrick Stump of Fall Out Boy)",
+  "ArtistID": 28,
+  "GenreID": 18
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2cf"
+  },
+  "id_track": 37,
+  "TrackName": "Otro Trago",
+  "ArtistID": 13,
+  "GenreID": 10
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d0"
+  },
+  "id_track": 38,
+  "TrackName": "Antisocial (with Travis Scott)",
+  "ArtistID": 4,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d1"
+  },
+  "id_track": 39,
+  "TrackName": "Sucker",
+  "ArtistID": 29,
+  "GenreID": 19
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d2"
+  },
+  "id_track": 40,
+  "TrackName": "fuck, i'm lonely (with Anne-Marie) - from “13 Reasons Why: Season 3”",
+  "ArtistID": 30,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d3"
+  },
+  "id_track": 41,
+  "TrackName": "Higher Love",
+  "ArtistID": 31,
+  "GenreID": 16
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d4"
+  },
+  "id_track": 42,
+  "TrackName": "You Need To Calm Down",
+  "ArtistID": 32,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d5"
+  },
+  "id_track": 43,
+  "TrackName": "Shallow",
+  "ArtistID": 33,
+  "GenreID": 3
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d6"
+  },
+  "id_track": 44,
+  "TrackName": "Talk",
+  "ArtistID": 34,
+  "GenreID": 4
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d7"
+  },
+  "id_track": 45,
+  "TrackName": "Con Altura",
+  "ArtistID": 35,
+  "GenreID": 20
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d8"
+  },
+  "id_track": 46,
+  "TrackName": "One Thing Right",
+  "ArtistID": 32,
+  "GenreID": 21
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2d9"
+  },
+  "id_track": 47,
+  "TrackName": "Te Robaré",
+  "ArtistID": 36,
+  "GenreID": 12
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2da"
+  },
+  "id_track": 48,
+  "TrackName": "Happier",
+  "ArtistID": 31,
+  "GenreID": 21
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2db"
+  },
+  "id_track": 49,
+  "TrackName": "Call You Mine",
+  "ArtistID": 25,
+  "GenreID": 16
+},
+{
+  "_id": {
+    "$oid": "66413f8ec09b3756aa13f2dc"
+  },
+  "id_track": 50,
+  "TrackName": "Cross Me (feat. Chance the Rapper & PnB Rock)",
+  "ArtistID": 4,
+  "GenreID": 4
+}]
