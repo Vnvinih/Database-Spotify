@@ -1,6 +1,6 @@
 MODELO FÍSICO E LÓGICO MYSQL:
 
-1 - Tenha instalado o Mysql Workbench instalado em sua máquina. "https://dev.mysql.com/downloads/installer/" 
+1 - Tenha instalado o Mysql Workbench em sua máquina. "https://dev.mysql.com/downloads/installer/" 
 
 2 - vá na aba model e depois clique em Add Diagram para começar a criar seu modelo lógico
 
@@ -15,25 +15,27 @@ MODELO FÍSICO E LÓGICO MYSQL:
 
 **# IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGODB PELO PROMPT:**
 
-1 - Tenha o Mysql Workbench e o MongoDB instalado em sua máquina.
+1 - Tenha o MongoDB instalado em sua máquina.
 
 2 - também tenha instalado o MongoDB Database Tools para poder utilizar o mongoimport, e o Mongoshell para configurar o prompt no mongo compass.
 
-3 - Salve o documento do seu banco de dados em formato csv ou json através do Mysql Workbench.
+3 - Se o prompt não reconhecer você terá que ir na edição de variáveis do seu sistema, e colocar manualmente o caminho do arquivo do mongoshell e do Database Tools
 
-4 - No Prompt de comandos utilize: 
+4 - Salve o documento do seu banco de dados em formato csv ou json através do Mysql Workbench.
+
+5 - No Prompt de comandos utilize: 
 'mongoimport --db nomedobanco --collection nometabela --type json  --file caminhodoarquivo --jsonArray'
-para importar os arquivos em JSON ou CSV exportado do Mysql Workbench.
+para importar os arquivos em JSON exportado do Mysql Workbench.
 
-5 - Utilize 'show dbs' para monstrar os bancos existentes.
+6 - Utilize 'show dbs' para monstrar os bancos existentes.
 
-6 - Utilize 'use + nome do banco de dados' para acessar o banco de dados.
+7 - Utilize 'use + nome do banco de dados' para acessar o banco de dados.
 
-7 - Utilize 'show collections' para visualizar as tabelas existentes.
+8 - Utilize 'show collections' para visualizar as tabelas existentes.
 
-8 - Utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
+9 - Utilize 'db.NomeDaTabela.find().pretty()' para visualizar os documentos Nosql. 
 
-9- Desse jeito que você armazena os documentos em JSON para o MongoDB tirado do modelo relacional.
+10 - Desse jeito que você armazena os documentos em JSON para o MongoDB tirado do modelo relacional.
 
 IMPORTAÇÃO DE DADOS DO MYSQL PARA O MONGO DB PELO MONGODBCOMPASS;
 
